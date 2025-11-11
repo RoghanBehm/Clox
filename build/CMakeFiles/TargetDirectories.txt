@@ -1,0 +1,4 @@
+/home/roghan/repo/clox/build/CMakeFiles/clox_core.dir
+/home/roghan/repo/clox/build/CMakeFiles/Clox.dir
+/home/roghan/repo/clox/build/CMakeFiles/edit_cache.dir
+/home/roghan/repo/clox/build/CMakeFiles/rebuild_cache.dir

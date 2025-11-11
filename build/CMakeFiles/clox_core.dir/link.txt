@@ -1,0 +1,2 @@
+/usr/bin/ar qc libclox_core.a CMakeFiles/clox_core.dir/src/chunk.c.o CMakeFiles/clox_core.dir/src/debug.c.o CMakeFiles/clox_core.dir/src/memory.c.o CMakeFiles/clox_core.dir/src/value.c.o
+/usr/bin/ranlib libclox_core.a

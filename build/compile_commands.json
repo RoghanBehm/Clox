@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/roghan/repo/clox/build",
+  "command": "/usr/bin/cc  -I/home/roghan/repo/clox/include -g -std=c11 -o CMakeFiles/clox_core.dir/src/chunk.c.o -c /home/roghan/repo/clox/src/chunk.c",
+  "file": "/home/roghan/repo/clox/src/chunk.c",
+  "output": "CMakeFiles/clox_core.dir/src/chunk.c.o"
+},
+{
+  "directory": "/home/roghan/repo/clox/build",
+  "command": "/usr/bin/cc  -I/home/roghan/repo/clox/include -g -std=c11 -o CMakeFiles/clox_core.dir/src/debug.c.o -c /home/roghan/repo/clox/src/debug.c",
+  "file": "/home/roghan/repo/clox/src/debug.c",
+  "output": "CMakeFiles/clox_core.dir/src/debug.c.o"
+},
+{
+  "directory": "/home/roghan/repo/clox/build",
+  "command": "/usr/bin/cc  -I/home/roghan/repo/clox/include -g -std=c11 -o CMakeFiles/clox_core.dir/src/memory.c.o -c /home/roghan/repo/clox/src/memory.c",
+  "file": "/home/roghan/repo/clox/src/memory.c",
+  "output": "CMakeFiles/clox_core.dir/src/memory.c.o"
+},
+{
+  "directory": "/home/roghan/repo/clox/build",
+  "command": "/usr/bin/cc  -I/home/roghan/repo/clox/include -g -std=c11 -o CMakeFiles/clox_core.dir/src/value.c.o -c /home/roghan/repo/clox/src/value.c",
+  "file": "/home/roghan/repo/clox/src/value.c",
+  "output": "CMakeFiles/clox_core.dir/src/value.c.o"
+},
+{
+  "directory": "/home/roghan/repo/clox/build",
+  "command": "/usr/bin/cc  -I/home/roghan/repo/clox/include -g -std=c11 -o CMakeFiles/Clox.dir/src/main.c.o -c /home/roghan/repo/clox/src/main.c",
+  "file": "/home/roghan/repo/clox/src/main.c",
+  "output": "CMakeFiles/Clox.dir/src/main.c.o"
+}
+]
