@@ -32,16 +32,17 @@ void writeChunk(Chunk* chunk, uint8_t byte, int line) {
 	}
 	// Increment run if same op
 	if (chunk->runCount > 0 && chunk->e_lines[chunk->runCount - 1].line == line) {
-		chunk->e_lines[chunk->runCount - 1].count += 1;
+		chunk->e_lines[chunk->runCount - 1].count++;
 	} else { // Create new Line object in Line* array
 		if (chunk->runCapacity < chunk->runCount + 1) {
 			int old = chunk->runCapacity;
 			chunk->runCapacity = GROW_CAPACITY(old);
 			chunk->e_lines = GROW_ARRAY(Line, chunk->e_lines, old, chunk->runCapacity);
 		}
-		chunk->runCount += 1;
+		
 		chunk->e_lines[chunk->runCount].count = 1;
 		chunk->e_lines[chunk->runCount].line = line;
+		chunk->runCount++;
 	}
 
 	chunk->code[chunk->count++] = byte;
@@ -61,6 +62,20 @@ int getLine(const Chunk* chunk, int index) {
 int addConstant(Chunk* chunk, Value value) {
 	writeValueArray(&chunk->constants, value);
 	return chunk->constants.count - 1;
+}
+
+void writeConstant(Chunk* chunk, Value value, int line) {
+	int constant = addConstant(chunk, value);
+
+	if (constant <= UINT8_MAX) {
+		writeChunk(chunk, OP_CONSTANT, line);
+		writeChunk(chunk, constant, line);
+	} else {
+		writeChunk(chunk, OP_CONSTANT_LONG, line);
+		writeChunk(chunk, constant & 0xFF, line);
+		writeChunk(chunk, (constant >> 8) & 0xFF, line);
+		writeChunk(chunk, (constant >> 16) & 0xFF, line);
+	}
 }
 
 

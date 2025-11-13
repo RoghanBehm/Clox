@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/home/roghan/repo/clox/include
 
-C_FLAGS = -g -std=c11
+C_FLAGS = -O3 -DNDEBUG -std=c11
 

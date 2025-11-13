@@ -23,6 +23,9 @@ CMakeFiles/clox_core.dir/src/debug.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
  /home/roghan/repo/clox/include/debug.h \
  /home/roghan/repo/clox/include/chunk.h \
  /home/roghan/repo/clox/include/common.h \

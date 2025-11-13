@@ -23,6 +23,9 @@ CMakeFiles/clox_core.dir/src/value.c.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio2.h \
  /home/roghan/repo/clox/include/memory.h \
  /home/roghan/repo/clox/include/common.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \

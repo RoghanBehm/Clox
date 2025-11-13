@@ -12,7 +12,9 @@ CMakeFiles/clox_core.dir/src/chunk.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /usr/include/x86_64-linux-gnu/bits/stdlib.h \
  /home/roghan/repo/clox/include/chunk.h \
  /home/roghan/repo/clox/include/common.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
